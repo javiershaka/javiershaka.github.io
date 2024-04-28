@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Bloodstrike</title>
+    <link rel="stylesheet" href="all.css">
 </head>
 
 <body>
@@ -22,7 +23,20 @@
                 <option value="magazine">Cargador</option>
                 <option value="optic">Mira</option>
             </select>
-            <table aria-describedby="weaponsTable">
+            <select name="" id="optionsOrder">
+                <option value="default">Default</option>
+                <option value="damage">Daño</option>
+                <option value="range">Rango</option>
+                <option value="fire_rate">Cadencia</option>
+                <option value="recoil_control">Control de retroceso</option>
+                <option value="mobility">Movilidad</option>
+                <option value="accuracy">Punteria</option>
+                <option value="magazine">Cargador</option>
+                <option value="optic">Mira</option>
+                <option value="name">Nombre</option>
+                <option value="dps">DPS</option>
+            </select>
+            <table class="table" aria-describedby="weaponsTable">
                 <thead>
                     <tr>
                         <th>Nombre</th>
@@ -50,9 +64,62 @@
         </textarea>
     </div>
     <script>
-        let select = document.getElementById('options')
-        select.addEventListener('change', tableOrder)
-        function tableOrder(event) {
+        let select = document.getElementById('options');
+        let optionsOrder = document.getElementById('optionsOrder');
+        var primaryWeaponsGlobal = [];
+        select.addEventListener('change', tableModifique);
+        optionsOrder.addEventListener('change', orderTable);
+        function orderTable(event) {
+            let tableTemp = primaryWeaponsGlobal.slice();
+            console.log(event.target.value)
+            if (event.target.value != 'default') {
+                tableTemp.sort((a, b) => b[event.target.value] - a[event.target.value]);
+                console.log('entro')
+            }
+            if (event.target.value == 'name') {
+                tableTemp.sort((a, b) => a.name.localeCompare(b.name));
+            }
+            let tbody = document.getElementById('tbodyPrimaryWeapons');
+            tbody.innerHTML = '';
+            tableTemp.forEach(weapon => {
+                let tr = document.createElement('tr');
+                let tdName = document.createElement('td');
+                let tdType = document.createElement('td');
+                let tdDamage = document.createElement('td');
+                let tdRange = document.createElement('td');
+                let tdFireRate = document.createElement('td');
+                let tdControlRecoil = document.createElement('td');
+                let tdMobility = document.createElement('td');
+                let tdAccuracy = document.createElement('td');
+                let tdMagazine = document.createElement('td');
+                let tdOptic = document.createElement('td');
+                let tdDPS = document.createElement('td');
+                tbody.appendChild(tr);
+                tr.appendChild(tdName)
+                tr.appendChild(tdType)
+                tr.appendChild(tdDamage)
+                tr.appendChild(tdRange)
+                tr.appendChild(tdFireRate)
+                tr.appendChild(tdControlRecoil)
+                tr.appendChild(tdMobility)
+                tr.appendChild(tdAccuracy)
+                tr.appendChild(tdMagazine)
+                tr.appendChild(tdOptic)
+                tr.appendChild(tdDPS)
+                tdName.textContent = weapon.name;
+                tdType.textContent = weapon.type;
+                tdDamage.textContent = weapon.damage;
+                tdRange.textContent = weapon.range;
+                tdFireRate.textContent = weapon.fire_rate;
+                tdControlRecoil.textContent = weapon.recoil_control;
+                tdMobility.textContent = weapon.mobility;
+                tdAccuracy.textContent = weapon.accuracy;
+                tdMagazine.textContent = weapon.magazine;
+                tdOptic.textContent = weapon.optic;
+                tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+            })
+        }
+        function tableModifique(event) {
             let optionSelected = event.target.value;
             chargeTable(optionSelected);
         }
@@ -63,6 +130,7 @@
                     let primaryWeapons = data.primary;
                     let tbody = document.getElementById('tbodyPrimaryWeapons');
                     tbody.innerHTML = '';
+                    primaryWeaponsGlobal = [];
                     primaryWeapons.forEach(weapon => {
                         let tr = document.createElement('tr');
                         let tdName = document.createElement('td');
@@ -140,7 +208,7 @@
                             + weapon.stocks[0].accuracy
                             + weapon.magazines[0].accuracy;
                         weapon.magazine = weapon.magazine
-                            + weapon.magazines[0].capacity_additional;
+                            + weapon.magazines[0].magazine;
                         tdName.textContent = weapon.name;
                         tdType.textContent = weapon.type;
                         tdDamage.textContent = weapon.damage;
@@ -152,14 +220,18 @@
                         tdMagazine.textContent = weapon.magazine;
                         tdOptic.textContent = weapon.optic;
                         tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                        weapon.dps = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                        primaryWeaponsGlobal.push(weapon);
                     });
                 })
+
         }
         fetch('weapons.json')
             .then(res => res.json())
             .then(data => {
                 let primaryWeapons = data.primary;
                 let tbody = document.getElementById('tbodyPrimaryWeapons');
+                primaryWeaponsGlobal = [];
                 primaryWeapons.forEach(weapon => {
                     let tr = document.createElement('tr');
                     let tdName = document.createElement('td');
@@ -196,6 +268,8 @@
                     tdMagazine.textContent = weapon.magazine;
                     tdOptic.textContent = weapon.optic;
                     tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                    weapon.dps = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                    primaryWeaponsGlobal.push(weapon);
                 });
             })
     </script>

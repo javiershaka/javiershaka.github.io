@@ -1,0 +1,25 @@
+td {
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+}
+th{
+    background-color: seagreen;
+    padding: 5px;
+}
+tr:nth-child(odd) td {
+    background-color: teal;
+}
+
+tr:nth-child(even) td {
+    background-color: aqua;
+}
+.content{
+    width: 80%;
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    background-color: lightgray; /* Color de fondo para demostración */
+}
+.table{
+    width: 90%;
+    margin: 0 auto;
+}

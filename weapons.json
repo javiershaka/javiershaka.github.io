@@ -473,7 +473,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -484,8 +483,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -496,8 +494,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "Reload Nerf --"
                 },
                 {
@@ -508,8 +505,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Vehicle Damage +++"
                 },
                 {
@@ -520,8 +516,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 30,
+                    "magazine": 30,
                     "additional": "N/A"
                 }
             ]
@@ -966,7 +961,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -977,8 +971,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "N/A"
                 },
                 {
@@ -1001,8 +994,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 30,
+                    "magazine": 30,
                     "additional": "N/A"
                 }
             ]
@@ -1435,7 +1427,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -1446,8 +1437,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -1458,8 +1448,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Vehicle Damage +++"
                 },
                 {
@@ -1470,8 +1459,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "Reload Nerf --"
                 },
                 {
@@ -1482,8 +1470,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 30,
+                    "magazine": 30,
                     "additional": "Reload Nerf --"
                 }
             ]
@@ -1940,7 +1927,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -1951,8 +1937,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -1963,8 +1948,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Vehicle Damage +++"
                 },
                 {
@@ -1975,8 +1959,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "Reload Nerf --"
                 }
             ]
@@ -2321,7 +2304,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -2332,8 +2314,7 @@
                     "recoil_control": -7,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "N/A"
                 },
                 {
@@ -2344,8 +2325,7 @@
                     "recoil_control": 6,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Long-range Damabe -"
                 },
                 {
@@ -2356,8 +2336,7 @@
                     "recoil_control": 6,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "Long-range Damabe -"
                 },
                 {
@@ -2368,8 +2347,7 @@
                     "recoil_control": -7,
                     "mobility": -3,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Burn Damage, reduce Sound Alert Range"
                 },
                 {
@@ -2380,8 +2358,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Long-range Damabe"
                 }
             ]
@@ -2826,7 +2803,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -2837,8 +2813,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 9,
+                    "magazine": 9,
                     "additional": "N/A"
                 },
                 {
@@ -2849,8 +2824,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 24,
+                    "magazine": 24,
                     "additional": "N/A"
                 },
                 {
@@ -2861,8 +2835,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 39,
+                    "magazine": 39,
                     "additional": "N/A"
                 },
                 {
@@ -2873,8 +2846,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 9,
+                    "magazine": 9,
                     "additional": "Damage +++"
                 }
             ]
@@ -3142,7 +3114,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 }
             ]
@@ -3563,7 +3534,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -3574,8 +3544,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -3586,8 +3555,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "N/A"
                 }
             ]
@@ -4008,7 +3976,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -4019,8 +3986,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 10,
+                    "magazine": 10,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -4031,8 +3997,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 20,
+                    "magazine": 20,
                     "additional": "N/A"
                 }
             ]
@@ -4432,7 +4397,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 }
             ]
@@ -4788,7 +4752,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -4799,8 +4762,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 4,
+                    "magazine": 4,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -4811,8 +4773,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 12,
+                    "magazine": 12,
                     "additional": "N/A"
                 },
                 {
@@ -4823,8 +4784,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": -4,
-                    "magazine": 0,
-                    "capacity_additional": 4,
+                    "magazine": 4,
                     "additional": "Burn Damage"
                 }
             ]
@@ -5170,7 +5130,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -5181,8 +5140,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 2,
+                    "magazine": 2,
                     "additional": "N/A"
                 },
                 {
@@ -5193,8 +5151,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 4,
+                    "magazine": 4,
                     "additional": "N/A"
                 },
                 {
@@ -5205,8 +5162,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": -3,
-                    "magazine": 0,
-                    "capacity_additional": -3,
+                    "magazine": -3,
                     "additional": "Damage +++"
                 }
             ]
@@ -5563,7 +5519,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -5574,8 +5529,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 45,
+                    "magazine": 45,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -5586,8 +5540,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 75,
+                    "magazine": 75,
                     "additional": "N/A"
                 }
             ]
@@ -5921,7 +5874,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -5932,8 +5884,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 2,
+                    "magazine": 2,
                     "additional": "Reload Nerf -"
                 },
                 {
@@ -5944,8 +5895,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 2,
+                    "magazine": 2,
                     "additional": "Burn Damage, reduce Sound Alert Range"
                 },
                 {
@@ -5956,8 +5906,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 4,
+                    "magazine": 4,
                     "additional": "N/A"
                 }
             ]
@@ -6292,7 +6241,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -6303,8 +6251,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 5,
+                    "magazine": 5,
                     "additional": "Reload Nerf -"
                 }
             ]
@@ -6432,7 +6379,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -6444,7 +6390,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "Damage --"
                 }
             ]
@@ -6640,7 +6585,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -6651,8 +6595,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 7,
+                    "magazine": 7,
                     "additional": "N/A"
                 },
                 {
@@ -6663,8 +6606,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 12,
+                    "magazine": 12,
                     "additional": "N/A"
                 },
                 {
@@ -6675,8 +6617,7 @@
                     "recoil_control": 0,
                     "mobility": -7,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 27,
+                    "magazine": 27,
                     "additional": "N/A"
                 }
             ],
@@ -6690,7 +6631,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 }
             ]
@@ -7003,7 +6943,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 },
                 {
@@ -7014,8 +6953,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 3,
+                    "magazine": 3,
                     "additional": "N/A"
                 },
                 {
@@ -7026,8 +6964,7 @@
                     "recoil_control": 0,
                     "mobility": 0,
                     "accuracy": 0,
-                    "magazine": 0,
-                    "capacity_additional": 6,
+                    "magazine": 6,
                     "additional": "N/A"
                 }
             ]
@@ -7119,7 +7056,6 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
-                    "capacity_additional": 0,
                     "additional": "N/A"
                 }
             ]
