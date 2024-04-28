@@ -3115,6 +3115,28 @@
                     "accuracy": 0,
                     "magazine": 0,
                     "additional": "N/A"
+                },
+                {
+                    "name": "35-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 10,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "50-round Drum",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 20,
+                    "additional": "N/A"
                 }
             ]
         },
