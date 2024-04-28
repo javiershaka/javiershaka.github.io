@@ -1,11 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Bloodstrike</title>
 </head>
+
 <body>
-    
+    <div class="body">
+
+        <div class="content">
+            <select name="" id="options">
+                <option value="default">Default</option>
+                <option value="damage">Daño</option>
+                <option value="rage">Rango</option>
+            </select>
+            <table aria-describedby="weaponsTable">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Daño</th>
+                        <th>Rango</th>
+                        <th>Cadencia</th>
+                        <th>Control de retroceso</th>
+                        <th>Movilidad</th>
+                        <th>Punteria</th>
+                        <th>Cargador</th>
+                        <th>Mira</th>
+                        <th>DPS (Beta)</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyPrimaryWeapons">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+        <textarea name="anotaciones" id="" cols="30" rows="10">
+            La cadencia se divide entre 4 para dar las balas por segundo.
+            |
+        </textarea>
+    </div>
+    <script>
+        let select = document.getElementById('options')
+        select.addEventListener('change', tableOrder)
+        function tableOrder(event) {
+            console.log(event.target.value)
+            switch (event.target.value) {
+                case 'damage':
+                    fetch('weapons.json')
+                        .then(res => res.json())
+                        .then(data => {
+                            let primaryWeapons = data.primary;
+                            let tbody = document.getElementById('tbodyPrimaryWeapons');
+                            tbody.innerHTML = '';
+                            primaryWeapons.forEach(weapon => {
+                                let tr = document.createElement('tr');
+                                let tdName = document.createElement('td');
+                                let tdType = document.createElement('td');
+                                let tdDamage = document.createElement('td');
+                                let tdRange = document.createElement('td');
+                                let tdFireRate = document.createElement('td');
+                                let tdControlRecoil = document.createElement('td');
+                                let tdMobility = document.createElement('td');
+                                let tdAccuracy = document.createElement('td');
+                                let tdMagazine = document.createElement('td');
+                                let tdOptic = document.createElement('td');
+                                let tdDPS = document.createElement('td');
+                                tbody.appendChild(tr);
+                                tr.appendChild(tdName)
+                                tr.appendChild(tdType)
+                                tr.appendChild(tdDamage)
+                                tr.appendChild(tdRange)
+                                tr.appendChild(tdFireRate)
+                                tr.appendChild(tdControlRecoil)
+                                tr.appendChild(tdMobility)
+                                tr.appendChild(tdAccuracy)
+                                tr.appendChild(tdMagazine)
+                                tr.appendChild(tdOptic)
+                                tr.appendChild(tdDPS)
+                                weapon.muzzles.sort((a, b) => b.damage - a.damage);
+                                weapon.barrels.sort((a, b) => b.damage - a.damage);
+                                weapon.underbarrels.sort((a, b) => b.damage - a.damage);
+                                weapon.optics.sort((a, b) => b.damage - a.damage);
+                                weapon.stocks.sort((a, b) => b.damage - a.damage);
+                                weapon.magazines.sort((a, b) => b.damage - a.damage);
+                                damage = weapon.damage
+                                    + weapon.muzzles[0].damage
+                                    + weapon.barrels[0].damage
+                                    + weapon.underbarrels[0].damage
+                                    + weapon.optics[0].damage
+                                    + weapon.stocks[0].damage
+                                    + weapon.magazines[0].damage;
+
+
+                                tdName.textContent = weapon.name;
+                                tdType.textContent = weapon.type;
+                                tdDamage.textContent = damage;
+                                tdRange.textContent = weapon.range;
+                                tdFireRate.textContent = weapon.fire_rate;
+                                tdControlRecoil.textContent = weapon.recoil_control;
+                                tdMobility.textContent = weapon.mobility;
+                                tdAccuracy.textContent = weapon.accuracy;
+                                tdMagazine.textContent = weapon.magazine;
+                                tdOptic.textContent = weapon.optic;
+                                tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(damage);
+                            });
+                        })
+                    break;
+
+                default:
+                    break;
+            }
+        }
+        fetch('weapons.json')
+            .then(res => res.json())
+            .then(data => {
+                let primaryWeapons = data.primary;
+                let tbody = document.getElementById('tbodyPrimaryWeapons');
+                primaryWeapons.forEach(weapon => {
+                    let tr = document.createElement('tr');
+                    let tdName = document.createElement('td');
+                    let tdType = document.createElement('td');
+                    let tdDamage = document.createElement('td');
+                    let tdRange = document.createElement('td');
+                    let tdFireRate = document.createElement('td');
+                    let tdControlRecoil = document.createElement('td');
+                    let tdMobility = document.createElement('td');
+                    let tdAccuracy = document.createElement('td');
+                    let tdMagazine = document.createElement('td');
+                    let tdOptic = document.createElement('td');
+                    let tdDPS = document.createElement('td');
+                    tbody.appendChild(tr);
+                    tr.appendChild(tdName)
+                    tr.appendChild(tdType)
+                    tr.appendChild(tdDamage)
+                    tr.appendChild(tdRange)
+                    tr.appendChild(tdFireRate)
+                    tr.appendChild(tdControlRecoil)
+                    tr.appendChild(tdMobility)
+                    tr.appendChild(tdAccuracy)
+                    tr.appendChild(tdMagazine)
+                    tr.appendChild(tdOptic)
+                    tr.appendChild(tdDPS)
+                    tdName.textContent = weapon.name;
+                    tdType.textContent = weapon.type;
+                    tdDamage.textContent = weapon.damage;
+                    tdRange.textContent = weapon.range;
+                    tdFireRate.textContent = weapon.fire_rate;
+                    tdControlRecoil.textContent = weapon.recoil_control;
+                    tdMobility.textContent = weapon.mobility;
+                    tdAccuracy.textContent = weapon.accuracy;
+                    tdMagazine.textContent = weapon.magazine;
+                    tdOptic.textContent = weapon.optic;
+                    tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                });
+            })
+    </script>
 </body>
+
 </html>

@@ -11,7 +11,7 @@
             "accuracy": 28,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -537,7 +537,7 @@
             "accuracy": 28,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -1018,7 +1018,7 @@
             "accuracy": 28,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -1491,15 +1491,15 @@
         {
             "name": "Scar",
             "type": "Assault Rifle",
-            "damage": 42,
-            "range": 25,
-            "fire_rate": 26,
-            "recoil_control": 16,
+            "damage": 27,
+            "range": 20,
+            "fire_rate": 44,
+            "recoil_control": 13,
             "mobility": 60,
             "accuracy": 28,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Default Muzzle",
                     "damage": 0,
@@ -1984,15 +1984,15 @@
         {
             "name": "VSS",
             "type": "Assault Rifle",
-            "damage": 30,
+            "damage": 42,
             "range": 25,
-            "fire_rate": 38,
-            "recoil_control": 32,
+            "fire_rate": 26,
+            "recoil_control": 16,
             "mobility": 60,
             "accuracy": 28,
-            "magazine": 30,
+            "magazine": 10,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -2394,10 +2394,10 @@
             "fire_rate": 29,
             "recoil_control": 28,
             "mobility": 60,
-            "accuracy": 28,
+            "accuracy": 48,
             "magazine": 21,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Original",
                     "damage": 0,
@@ -2890,7 +2890,7 @@
             "accuracy": 42,
             "magazine": 25,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -3158,7 +3158,7 @@
             "accuracy": 42,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Original",
                     "damage": 0,
@@ -3603,7 +3603,7 @@
             "accuracy": 42,
             "magazine": 30,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Original",
                     "damage": 0,
@@ -4048,7 +4048,7 @@
             "accuracy": 56,
             "magazine": 50,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Original",
                     "damage": 0,
@@ -4448,7 +4448,7 @@
             "accuracy": 18,
             "magazine": 8,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -4840,7 +4840,7 @@
             "accuracy": 13,
             "magazine": 8,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -5222,7 +5222,7 @@
             "accuracy": 25,
             "magazine": 75,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -5603,7 +5603,7 @@
             "accuracy": 17,
             "magazine": 5,
             "optic": "8x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Original",
                     "damage": 0,
@@ -5973,7 +5973,7 @@
             "accuracy": 26,
             "magazine": 5,
             "optic": "8x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -6320,7 +6320,7 @@
             "accuracy": 1,
             "magazine": 1,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -6462,7 +6462,7 @@
             "accuracy": 40,
             "magazine": 13,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -6706,7 +6706,7 @@
             "accuracy": 40,
             "magazine": 7,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
@@ -7043,7 +7043,7 @@
             "accuracy": 1,
             "magazine": 1,
             "optic": "1x",
-            "Muzzles": [
+            "muzzles": [
                 {
                     "name": "Empty",
                     "damage": 0,
