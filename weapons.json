@@ -152,9 +152,20 @@
                     "range": 8,
                     "fire_rate": 0,
                     "recoil_control": 4,
+                    "mobility": -7,
+                    "accuracy": -8,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "13.5'' LVOA Barrel",
+                    "damage": 4,
+                    "range": 8,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": -7,
-                    "magazine": -8,
+                    "accuracy": -8,
+                    "magazine": 0,
                     "additional": "N/A"
                 }
             ],
@@ -454,7 +465,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -466,7 +477,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "40-rond Mag",
+                    "name": "40-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -478,7 +489,7 @@
                     "additional": "Reload Nerf -"
                 },
                 {
-                    "name": "50-rond Mag",
+                    "name": "50-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -490,7 +501,7 @@
                     "additional": "Reload Nerf --"
                 },
                 {
-                    "name": "40-rond Explosive Mag",
+                    "name": "40-round Explosive Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -502,7 +513,7 @@
                     "additional": "Vehicle Damage +++"
                 },
                 {
-                    "name": "60-rond Mag",
+                    "name": "60-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -947,7 +958,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -959,7 +970,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "40-rond Mag",
+                    "name": "40-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -971,7 +982,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "40-rond Explosive Mag",
+                    "name": "40-round Explosive Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -983,7 +994,7 @@
                     "additional": "Vehicle Damage +++"
                 },
                 {
-                    "name": "60-rond Drump",
+                    "name": "60-round Drump",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1416,7 +1427,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1428,7 +1439,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "40-rond Mag",
+                    "name": "40-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1440,7 +1451,7 @@
                     "additional": "Reload Nerf -"
                 },
                 {
-                    "name": "40-rond Explosive Mag",
+                    "name": "40-round Explosive Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1452,7 +1463,7 @@
                     "additional": "Vehicle Damage +++"
                 },
                 {
-                    "name": "50-rond Mag",
+                    "name": "50-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1464,7 +1475,7 @@
                     "additional": "Reload Nerf --"
                 },
                 {
-                    "name": "60-rond Mag",
+                    "name": "60-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1921,7 +1932,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1933,7 +1944,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "40-rond Mag",
+                    "name": "40-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1945,7 +1956,7 @@
                     "additional": "Reload Nerf -"
                 },
                 {
-                    "name": "40-rond Explosive Mag",
+                    "name": "40-round Explosive Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -1957,7 +1968,7 @@
                     "additional": "Vehicle Damage +++"
                 },
                 {
-                    "name": "50-rond Mag",
+                    "name": "50-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2302,7 +2313,7 @@
             ],
             "magazines": [
                 {
-                    "name": "10-rond Mag",
+                    "name": "10-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2314,7 +2325,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "20-rond Mag",
+                    "name": "20-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2326,7 +2337,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "20-rond Rapid-fire Mag",
+                    "name": "20-round Rapid-fire Mag",
                     "damage": -19,
                     "range": 0,
                     "fire_rate": 25,
@@ -2338,7 +2349,7 @@
                     "additional": "Long-range Damabe -"
                 },
                 {
-                    "name": "30-rond Rapid-fire- Mag",
+                    "name": "30-round Rapid-fire- Mag",
                     "damage": 0,
                     "range": -19,
                     "fire_rate": 25,
@@ -2350,7 +2361,7 @@
                     "additional": "Long-range Damabe -"
                 },
                 {
-                    "name": "20-rond Incendiary Mag",
+                    "name": "20-round Incendiary Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2362,7 +2373,7 @@
                     "additional": "Burn Damage, reduce Sound Alert Range"
                 },
                 {
-                    "name": "20-rond Spitzer Mag",
+                    "name": "20-round Spitzer Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2819,7 +2830,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -2843,7 +2854,7 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "60-rond Drum",
+                    "name": "60-round Drum",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -3093,7 +3104,6 @@
                     "magazine": 0,
                     "additional": "N/A"
                 }
-
             ],
             "optics": [
                 {
@@ -3124,7 +3134,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "30-round Mag",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -3140,13 +3150,3175 @@
         {
             "name": "URB",
             "type": "Sub Machine Gun",
-            "damage": 30,
-            "range": 25,
-            "fire_rate": 38,
-            "recoil_control": 32,
-            "mobility": 60,
-            "accuracy": 28,
+            "damage": 32,
+            "range": 12,
+            "fire_rate": 42,
+            "recoil_control": 31,
+            "mobility": 67,
+            "accuracy": 42,
             "magazine": 30,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Assault Muzzle",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 7,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Suppressor",
+                    "damage": 0,
+                    "range": -3,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "CQB Muzzle Device",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -3,
+                    "accuracy": 15,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "Precision Suppressor",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "13'' Heavy Barrel",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "8.5'' Mini Barrel",
+                    "damage": 0,
+                    "range": -2,
+                    "fire_rate": 0,
+                    "recoil_control": -2,
+                    "mobility": 7,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "16'' Carbine Barrel",
+                    "damage": 0,
+                    "range": 4,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -8,
+                    "accuracy": -12,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Stubby Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "AFG-2 Angled Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Extended Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -4,
+                    "accuracy": 5,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Forward Universal Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "UVG Ultralight Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 5,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "TI Hunter Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "C-Vision Protection Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "TL-CORE Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Bison Heavy Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -9,
+                    "mobility": 8,
+                    "accuracy": 5,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "30-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "40-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 10,
+                    "additional": "Reload Nerf -"
+                },
+                {
+                    "name": "50-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 20,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "INP9",
+            "type": "Sub Machine Gun",
+            "damage": 19,
+            "range": 9,
+            "fire_rate": 56,
+            "recoil_control": 37,
+            "mobility": 63,
+            "accuracy": 42,
+            "magazine": 30,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Assault Muzzle",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 8,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Suppressor",
+                    "damage": 0,
+                    "range": -2,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "CQB Muzzle Device",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -3,
+                    "accuracy": 15,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "Precision Suppressor",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "8.5'' Skeleton Barrel",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "12.5'' Precision Barrel",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -7,
+                    "accuracy": -12,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "8.5'' Dense Barrel",
+                    "damage": 0,
+                    "range": -1,
+                    "fire_rate": 0,
+                    "recoil_control": -5,
+                    "mobility": 6,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Stubby Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "AFG-2 Angled Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Extended Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 6,
+                    "mobility": -4,
+                    "accuracy": 5,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Forward Universal Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "UVG Ultralight Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "SHIFT Skeleton Vertical Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 5,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "TI Hunter Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "C-Vision Protection Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "TL-CORE Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Bison Heavy Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -11,
+                    "mobility": 7,
+                    "accuracy": 5,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "30-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "40-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 10,
+                    "additional": "Reload Nerf -"
+                },
+                {
+                    "name": "50-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 20,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "P90",
+            "type": "Sub Machine Gun",
+            "damage": 21,
+            "range": 12,
+            "fire_rate": 64,
+            "recoil_control": 22,
+            "mobility": 62,
+            "accuracy": 56,
+            "magazine": 50,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Assault Muzzle",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "CQB Muzzle Device",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -3,
+                    "accuracy": 20,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Lightweight Suppressor",
+                    "damage": 0,
+                    "range": -3,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "Precision Suppressor",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Carbine Barrel",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Short Barrel",
+                    "damage": 0,
+                    "range": -2,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 6,
+                    "accuracy": 12,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Extended Barrel",
+                    "damage": 0,
+                    "range": 4,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -7,
+                    "accuracy": -16,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy ---"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Granulated Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Spotted Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Striped Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -10,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "H-S Precision Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Check Rest",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tactical Strap",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -6,
+                    "mobility": 7,
+                    "accuracy": 6,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "Origin-12",
+            "type": "Shotgun",
+            "damage": 33,
+            "range": 4,
+            "fire_rate": 16,
+            "recoil_control": 30,
+            "mobility": 58,
+            "accuracy": 18,
+            "magazine": 8,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 8,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Choke",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": -3,
+                    "mobility": 0,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Lightweight Suppressor",
+                    "damage": 0,
+                    "range": -1,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Tactical Suppressor",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Short Barrel",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": -1,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Dense Barrel",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": -1,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Extended Barrel",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -6,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy ---"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Forward Universal Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Sprint-to-Fire Speed"
+                },
+                {
+                    "name": "Extended Barrel Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -3,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -9,
+                    "mobility": 7,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "CTR Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "8-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "12-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 4,
+                    "additional": "Reload Nerf -"
+                },
+                {
+                    "name": "20-round Drum",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 12,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Dragon's Breath Mag",
+                    "damage": -3,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": -4,
+                    "magazine": 0,
+                    "capacity_additional": 4,
+                    "additional": "Burn Damage"
+                }
+            ]
+        },
+        {
+            "name": "MP155",
+            "type": "Shotgun",
+            "damage": 50,
+            "range": 4,
+            "fire_rate": 6,
+            "recoil_control": 13,
+            "mobility": 58,
+            "accuracy": 13,
+            "magazine": 8,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Choke",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 0,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Lightweight Suppressor",
+                    "damage": 0,
+                    "range": -1,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Tactical Suppressor",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "10.5'' Stubby Barrel",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 6,
+                    "accuracy": -3,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy ---"
+                },
+                {
+                    "name": "14.5'' Punisher Barrel",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -7,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -9,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tango 3.0x COmbat Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -12,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Mini Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Heavy Stock Pro",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "CQB Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -3,
+                    "mobility": 7,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "8-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "10-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "12-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 4,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "5-round Flechette Mag",
+                    "damage": 8,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": -3,
+                    "magazine": 0,
+                    "capacity_additional": -3,
+                    "additional": "Damage +++"
+                }
+            ]
+        },
+        {
+            "name": "Minigun",
+            "type": "Light Machine Gun",
+            "damage": 15,
+            "range": 38,
+            "fire_rate": 78,
+            "recoil_control": 36,
+            "mobility": 43,
+            "accuracy": 25,
+            "magazine": 75,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Prism Silencer",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Heavy Compensator",
+                    "damage": 0,
+                    "range": 4,
+                    "fire_rate": 8,
+                    "recoil_control": 0,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Heavy Prism Silencer",
+                    "damage": 0,
+                    "range": 8,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Short Assault Barrel",
+                    "damage": 0,
+                    "range": -15,
+                    "fire_rate": 0,
+                    "recoil_control": -5,
+                    "mobility": 4,
+                    "accuracy": 10,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Skeleton Barrel",
+                    "damage": 0,
+                    "range": 8,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Extended Heavy Barrel",
+                    "damage": 0,
+                    "range": 12,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -6,
+                    "accuracy": 7,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Granulated Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Heavy Grip",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 6,
+                    "mobility": -3,
+                    "accuracy": 3,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -6,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "3.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -8,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "4.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -13,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 4,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tango 6.0x Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -13,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 6,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Leather Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Heavy Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "75-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "120-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 45,
+                    "additional": "Reload Nerf -"
+                },
+                {
+                    "name": "150-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 75,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "Kala",
+            "type": "Sniper Rifle",
+            "damage": 125,
+            "range": 200,
+            "fire_rate": 3,
+            "recoil_control": 68,
+            "mobility": 44,
+            "accuracy": 17,
+            "magazine": 5,
+            "optic": "8x",
+            "Muzzles": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 9,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Assault Muzzle",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": -50,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 17,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Precision Suppressor",
+                    "damage": 0,
+                    "range": 21,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "23'' Barrel",
+                    "damage": 0,
+                    "range": 36,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -2,
+                    "accuracy": -2,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "26'' Extended Barrel",
+                    "damage": 25,
+                    "range": 52,
+                    "fire_rate": 0,
+                    "recoil_control": 8,
+                    "mobility": -3,
+                    "accuracy": -3,
+                    "magazine": 0,
+                    "additional": "Damage +++"
+                },
+                {
+                    "name": "26'' Extended Heavy Barrel",
+                    "damage": 25,
+                    "range": 70,
+                    "fire_rate": 0,
+                    "recoil_control": 11,
+                    "mobility": -5,
+                    "accuracy": -5,
+                    "magazine": 0,
+                    "additional": "Damage +++"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 8,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "3.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "4.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 4,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tango 6.0x Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 6,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -2,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "TI Hunter Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 7,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "5-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "7-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 2,
+                    "additional": "Reload Nerf -"
+                },
+                {
+                    "name": "7-round Incendiary Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 2,
+                    "additional": "Burn Damage, reduce Sound Alert Range"
+                },
+                {
+                    "name": "9-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 4,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "M700",
+            "type": "Sniper Rifle",
+            "damage": 125,
+            "range": 60,
+            "fire_rate": 4,
+            "recoil_control": 62,
+            "mobility": 55,
+            "accuracy": 26,
+            "magazine": 5,
+            "optic": "8x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 8,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Assault Muzzle",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compact Suppresor",
+                    "damage": 0,
+                    "range": -15,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 16,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Precision Suppressor",
+                    "damage": 0,
+                    "range": 6,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "23'' Barrel",
+                    "damage": 0,
+                    "range": 11,
+                    "fire_rate": 0,
+                    "recoil_control": 5,
+                    "mobility": -3,
+                    "accuracy": -3,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy --"
+                },
+                {
+                    "name": "27'' Barrel",
+                    "damage": 0,
+                    "range": 21,
+                    "fire_rate": 0,
+                    "recoil_control": 10,
+                    "mobility": -6,
+                    "accuracy": -7,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "8.0x Precision Sniper Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 8,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "3.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tango 6.0x Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 6,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "4.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 4,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "CLassic Wooden Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -2,
+                    "mobility": 3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "AICS",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 7,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "5-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "10-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 5,
+                    "additional": "Reload Nerf -"
+                }
+            ]
+        },
+        {
+            "name": "Bow",
+            "type": "Sniper Rifle",
+            "damage": 63,
+            "range": 100,
+            "fire_rate": 42,
+            "recoil_control": 13,
+            "mobility": 58,
+            "accuracy": 1,
+            "magazine": 1,
             "optic": "1x",
             "Muzzles": [
                 {
@@ -3163,7 +6335,730 @@
             ],
             "barrels": [
                 {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "3.0x Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "4.0x Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "Default Arrowhead",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Explosive Arrowhead",
+                    "damage": -25,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "Damage --"
+                }
+            ]
+        }
+    ],
+    "secondary": [
+        {
+            "name": "Glock",
+            "type": "Handgun",
+            "damage": 35,
+            "range": 10,
+            "fire_rate": 20,
+            "recoil_control": 18,
+            "mobility": 67,
+            "accuracy": 40,
+            "magazine": 13,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Val Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -3,
+                    "accuracy": 14,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 1,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Cutlass Suppresor",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 1,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Reduce Sound Alert Range"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "SAS tactical Barrel",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Combat Master Barrel",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -8,
+                    "accuracy": -12,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DP Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "12-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "20-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 7,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "25-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 12,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "40-round Drum",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -7,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 27,
+                    "additional": "N/A"
+                }
+            ],
+            "Reargrip": [
+                {
+                    "name": "Akimbo Glocks",
+                    "damage": -3,
+                    "range": -3,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "Desert Eagle",
+            "type": "Handgun",
+            "damage": 70,
+            "range": 12,
+            "fire_rate": 13,
+            "recoil_control": 28,
+            "mobility": 67,
+            "accuracy": 40,
+            "magazine": 7,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Lightweight Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -1,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Val Muzzle Brake",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -3,
+                    "accuracy": 14,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Compensator",
+                    "damage": 0,
+                    "range": 2,
+                    "fire_rate": 0,
+                    "recoil_control": 6,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Cutlass Suppresor",
+                    "damage": 0,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 2,
+                    "mobility": -3,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "barrels": [
+                {
                     "name": "Original",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Dark Flame Barrel",
+                    "damage": 0,
+                    "range": -2,
+                    "fire_rate": 0,
+                    "recoil_control": -4,
+                    "mobility": 7,
+                    "accuracy": 2,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
+                },
+                {
+                    "name": "Skeleton Barrel",
+                    "damage": 10,
+                    "range": 3,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "Damage +++"
+                },
+                {
+                    "name": "10'' Extend Barrel",
+                    "damage": 10,
+                    "range": 4,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -8,
+                    "accuracy": -12,
+                    "magazine": 0,
+                    "additional": "Damage +++"
+                }
+            ],
+            "underbarrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "optics": [
+                {
+                    "name": "Iron Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Tango 3.0x COmbat Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 3,
+                    "mobility": -15,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                }
+            ],
+            "stocks": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "magazines": [
+                {
+                    "name": "7-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "10-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 3,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "13-round Mag",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "capacity_additional": 6,
+                    "additional": "N/A"
+                }
+            ]
+        },
+        {
+            "name": "RPG-7",
+            "type": "Launcher",
+            "damage": 70,
+            "range": 4,
+            "fire_rate": 8,
+            "recoil_control": 13,
+            "mobility": 58,
+            "accuracy": 1,
+            "magazine": 1,
+            "optic": "1x",
+            "Muzzles": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Empty",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -3203,7 +7098,7 @@
             ],
             "stocks": [
                 {
-                    "name": "Original",
+                    "name": "Empty",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -3216,7 +7111,7 @@
             ],
             "magazines": [
                 {
-                    "name": "30-rond Mag",
+                    "name": "Default Arrowhead",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
@@ -3228,52 +7123,6 @@
                     "additional": "N/A"
                 }
             ]
-        },
-        {
-            "name": "INP9",
-            "type": "Sub Machine Gun"
-        },
-        {
-            "name": "P90",
-            "type": "Sub Machine Gun"
-        },
-        {
-            "name": "Origin-12",
-            "type": "Shotgun"
-        },
-        {
-            "name": "MP155",
-            "type": "Shotgun"
-        },
-        {
-            "name": "Minigun",
-            "type": "Light Machine Gun"
-        },
-        {
-            "name": "Kala",
-            "type": "Sniper Rifle"
-        },
-        {
-            "name": "M700",
-            "type": "Sniper Rifle"
-        },
-        {
-            "name": "Bow",
-            "type": "Sniper Rifle"
-        }
-    ],
-    "secondary": [
-        {
-            "name": "Glock",
-            "type": "Handgun"
-        },
-        {
-            "name": "Desert Eagle",
-            "type": "Handgun"
-        },
-        {
-            "name": "RPG-7",
-            "type": "Launcher"
         }
     ]
 }
