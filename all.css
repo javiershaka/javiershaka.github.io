@@ -3,9 +3,17 @@ td {
     border-color: black;
     text-align: center;
 }
-th{
-    background-color: seagreen;
+th {
+    background-color: mediumaquamarine;
     padding: 5px;
+    border: 2px solid;
+    border-color: black;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
 }
 tr:nth-child(odd) td {
     background-color: teal;
@@ -14,12 +22,23 @@ tr:nth-child(odd) td {
 tr:nth-child(even) td {
     background-color: aqua;
 }
-.content{
-    width: 80%;
-    margin: 0 auto; /* Margen automático para centrar horizontalmente */
-    background-color: lightgray; /* Color de fondo para demostración */
+body{
+    background-color: teal;
 }
-.table{
+.content {
+    width: 80%;
+    margin: 0 auto;
+    /* Margen automático para centrar horizontalmente */
+    background-color: aqua;
+    /* Color de fondo para demostración */
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.selectors {
     width: 90%;
     margin: 0 auto;
 }

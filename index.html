@@ -6,36 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Bloodstrike</title>
     <link rel="stylesheet" href="all.css">
+    <meta name="description" content="Calculadora de estadisticas de armas de Blood Strike">
 </head>
 
 <body>
+    <header>
+        <h1>Blood Strike Calculator</h1>
+        <h2>Visualiza de forma mas limpia y rapida las estadisticas de las armas.
+        </h2>
+        <h2>Perzonaliza de forma mas rapida el enfoque a las estadisticas que te quieres enfocar
+        </h2>
+    </header>
     <div class="body">
 
         <div class="content">
-            <select name="" id="options">
-                <option value="default">Default</option>
-                <option value="damage">Daño</option>
-                <option value="range">Rango</option>
-                <option value="fire_rate">Cadencia</option>
-                <option value="recoil_control">Control de retroceso</option>
-                <option value="mobility">Movilidad</option>
-                <option value="accuracy">Punteria</option>
-                <option value="magazine">Cargador</option>
-                <option value="optic">Mira</option>
-            </select>
-            <select name="" id="optionsOrder">
-                <option value="default">Default</option>
-                <option value="damage">Daño</option>
-                <option value="range">Rango</option>
-                <option value="fire_rate">Cadencia</option>
-                <option value="recoil_control">Control de retroceso</option>
-                <option value="mobility">Movilidad</option>
-                <option value="accuracy">Punteria</option>
-                <option value="magazine">Cargador</option>
-                <option value="optic">Mira</option>
-                <option value="name">Nombre</option>
-                <option value="dps">DPS</option>
-            </select>
+            <div class="selectors">
+                <label for="options">Personalizar por:</label>
+                <select name="" id="options">
+                    <option value="default">Default</option>
+                    <option value="damage">Daño</option>
+                    <option value="range">Rango</option>
+                    <option value="fire_rate">Cadencia</option>
+                    <option value="recoil_control">Control de retroceso</option>
+                    <option value="mobility">Movilidad</option>
+                    <option value="accuracy">Punteria</option>
+                    <option value="magazine">Cargador</option>
+                    <option value="optic">Mira</option>
+                </select>
+            </div>
+            <div class="selectors">
+                <label for="optionsOrder">Ordernar por:</label>
+                <select name="" id="optionsOrder">
+                    <option value="default">Default</option>
+                    <option value="damage">Daño</option>
+                    <option value="range">Rango</option>
+                    <option value="fire_rate">Cadencia</option>
+                    <option value="recoil_control">Control de retroceso</option>
+                    <option value="mobility">Movilidad</option>
+                    <option value="accuracy">Punteria</option>
+                    <option value="magazine">Cargador</option>
+                    <option value="optic">Mira</option>
+                    <option value="name">Nombre</option>
+                    <option value="dps">DPS</option>
+                </select>
+            </div>
             <table class="table" aria-describedby="weaponsTable">
                 <thead>
                     <tr>
