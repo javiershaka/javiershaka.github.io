@@ -14,7 +14,13 @@
             <select name="" id="options">
                 <option value="default">Default</option>
                 <option value="damage">Daño</option>
-                <option value="rage">Rango</option>
+                <option value="range">Rango</option>
+                <option value="fire_rate">Cadencia</option>
+                <option value="recoil_control">Control de retroceso</option>
+                <option value="mobility">Movilidad</option>
+                <option value="accuracy">Punteria</option>
+                <option value="magazine">Cargador</option>
+                <option value="optic">Mira</option>
             </select>
             <table aria-describedby="weaponsTable">
                 <thead>
@@ -47,73 +53,107 @@
         let select = document.getElementById('options')
         select.addEventListener('change', tableOrder)
         function tableOrder(event) {
-            console.log(event.target.value)
-            switch (event.target.value) {
-                case 'damage':
-                    fetch('weapons.json')
-                        .then(res => res.json())
-                        .then(data => {
-                            let primaryWeapons = data.primary;
-                            let tbody = document.getElementById('tbodyPrimaryWeapons');
-                            tbody.innerHTML = '';
-                            primaryWeapons.forEach(weapon => {
-                                let tr = document.createElement('tr');
-                                let tdName = document.createElement('td');
-                                let tdType = document.createElement('td');
-                                let tdDamage = document.createElement('td');
-                                let tdRange = document.createElement('td');
-                                let tdFireRate = document.createElement('td');
-                                let tdControlRecoil = document.createElement('td');
-                                let tdMobility = document.createElement('td');
-                                let tdAccuracy = document.createElement('td');
-                                let tdMagazine = document.createElement('td');
-                                let tdOptic = document.createElement('td');
-                                let tdDPS = document.createElement('td');
-                                tbody.appendChild(tr);
-                                tr.appendChild(tdName)
-                                tr.appendChild(tdType)
-                                tr.appendChild(tdDamage)
-                                tr.appendChild(tdRange)
-                                tr.appendChild(tdFireRate)
-                                tr.appendChild(tdControlRecoil)
-                                tr.appendChild(tdMobility)
-                                tr.appendChild(tdAccuracy)
-                                tr.appendChild(tdMagazine)
-                                tr.appendChild(tdOptic)
-                                tr.appendChild(tdDPS)
-                                weapon.muzzles.sort((a, b) => b.damage - a.damage);
-                                weapon.barrels.sort((a, b) => b.damage - a.damage);
-                                weapon.underbarrels.sort((a, b) => b.damage - a.damage);
-                                weapon.optics.sort((a, b) => b.damage - a.damage);
-                                weapon.stocks.sort((a, b) => b.damage - a.damage);
-                                weapon.magazines.sort((a, b) => b.damage - a.damage);
-                                damage = weapon.damage
-                                    + weapon.muzzles[0].damage
-                                    + weapon.barrels[0].damage
-                                    + weapon.underbarrels[0].damage
-                                    + weapon.optics[0].damage
-                                    + weapon.stocks[0].damage
-                                    + weapon.magazines[0].damage;
+            let optionSelected = event.target.value;
+            chargeTable(optionSelected);
+        }
+        function chargeTable(option) {
+            fetch('weapons.json')
+                .then(res => res.json())
+                .then(data => {
+                    let primaryWeapons = data.primary;
+                    let tbody = document.getElementById('tbodyPrimaryWeapons');
+                    tbody.innerHTML = '';
+                    primaryWeapons.forEach(weapon => {
+                        let tr = document.createElement('tr');
+                        let tdName = document.createElement('td');
+                        let tdType = document.createElement('td');
+                        let tdDamage = document.createElement('td');
+                        let tdRange = document.createElement('td');
+                        let tdFireRate = document.createElement('td');
+                        let tdControlRecoil = document.createElement('td');
+                        let tdMobility = document.createElement('td');
+                        let tdAccuracy = document.createElement('td');
+                        let tdMagazine = document.createElement('td');
+                        let tdOptic = document.createElement('td');
+                        let tdDPS = document.createElement('td');
+                        tbody.appendChild(tr);
+                        tr.appendChild(tdName)
+                        tr.appendChild(tdType)
+                        tr.appendChild(tdDamage)
+                        tr.appendChild(tdRange)
+                        tr.appendChild(tdFireRate)
+                        tr.appendChild(tdControlRecoil)
+                        tr.appendChild(tdMobility)
+                        tr.appendChild(tdAccuracy)
+                        tr.appendChild(tdMagazine)
+                        tr.appendChild(tdOptic)
+                        tr.appendChild(tdDPS)
+                        if (option != 'default') {
+                            weapon.muzzles.sort((a, b) => b[option] - a[option]);
+                            weapon.barrels.sort((a, b) => b[option] - a[option]);
+                            weapon.underbarrels.sort((a, b) => b[option] - a[option]);
+                            weapon.optics.sort((a, b) => b[option] - a[option]);
+                            weapon.stocks.sort((a, b) => b[option] - a[option]);
+                            weapon.magazines.sort((a, b) => b[option] - a[option]);
+                        }
 
-
-                                tdName.textContent = weapon.name;
-                                tdType.textContent = weapon.type;
-                                tdDamage.textContent = damage;
-                                tdRange.textContent = weapon.range;
-                                tdFireRate.textContent = weapon.fire_rate;
-                                tdControlRecoil.textContent = weapon.recoil_control;
-                                tdMobility.textContent = weapon.mobility;
-                                tdAccuracy.textContent = weapon.accuracy;
-                                tdMagazine.textContent = weapon.magazine;
-                                tdOptic.textContent = weapon.optic;
-                                tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(damage);
-                            });
-                        })
-                    break;
-
-                default:
-                    break;
-            }
+                        weapon.damage = weapon.damage
+                            + weapon.muzzles[0].damage
+                            + weapon.barrels[0].damage
+                            + weapon.underbarrels[0].damage
+                            + weapon.optics[0].damage
+                            + weapon.stocks[0].damage
+                            + weapon.magazines[0].damage;
+                        weapon.range = weapon.range
+                            + weapon.muzzles[0].range
+                            + weapon.barrels[0].range
+                            + weapon.underbarrels[0].range
+                            + weapon.optics[0].range
+                            + weapon.stocks[0].range
+                            + weapon.magazines[0].range;
+                        weapon.fire_rate = weapon.fire_rate
+                            + weapon.muzzles[0].fire_rate
+                            + weapon.barrels[0].fire_rate
+                            + weapon.underbarrels[0].fire_rate
+                            + weapon.optics[0].fire_rate
+                            + weapon.stocks[0].fire_rate
+                            + weapon.magazines[0].fire_rate;
+                        weapon.recoil_control = weapon.recoil_control
+                            + weapon.muzzles[0].recoil_control
+                            + weapon.barrels[0].recoil_control
+                            + weapon.underbarrels[0].recoil_control
+                            + weapon.optics[0].recoil_control
+                            + weapon.stocks[0].recoil_control
+                            + weapon.magazines[0].recoil_control;
+                        weapon.mobility = weapon.mobility
+                            + weapon.muzzles[0].mobility
+                            + weapon.barrels[0].mobility
+                            + weapon.underbarrels[0].mobility
+                            + weapon.optics[0].mobility
+                            + weapon.stocks[0].mobility
+                            + weapon.magazines[0].mobility;
+                        weapon.accuracy = weapon.accuracy
+                            + weapon.muzzles[0].accuracy
+                            + weapon.barrels[0].accuracy
+                            + weapon.underbarrels[0].accuracy
+                            + weapon.optics[0].accuracy
+                            + weapon.stocks[0].accuracy
+                            + weapon.magazines[0].accuracy;
+                        weapon.magazine = weapon.magazine
+                            + weapon.magazines[0].capacity_additional;
+                        tdName.textContent = weapon.name;
+                        tdType.textContent = weapon.type;
+                        tdDamage.textContent = weapon.damage;
+                        tdRange.textContent = weapon.range;
+                        tdFireRate.textContent = weapon.fire_rate;
+                        tdControlRecoil.textContent = weapon.recoil_control;
+                        tdMobility.textContent = weapon.mobility;
+                        tdAccuracy.textContent = weapon.accuracy;
+                        tdMagazine.textContent = weapon.magazine;
+                        tdOptic.textContent = weapon.optic;
+                        tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
+                    });
+                })
         }
         fetch('weapons.json')
             .then(res => res.json())

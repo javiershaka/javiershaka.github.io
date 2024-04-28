@@ -2868,7 +2868,7 @@
                 {
                     "name": "30-round Sniper Mag",
                     "damage": 9,
-                    "range": 8,
+                    "range": 7,
                     "fire_rate": -4,
                     "recoil_control": 0,
                     "mobility": 0,
@@ -4168,7 +4168,7 @@
                     "fire_rate": 0,
                     "recoil_control": -1,
                     "mobility": 6,
-                    "accuracy": 12,
+                    "accuracy": 11,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -5260,7 +5260,7 @@
                     "name": "Heavy Compensator",
                     "damage": 0,
                     "range": 4,
-                    "fire_rate": 8,
+                    "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": -1,
                     "accuracy": 0,
@@ -5662,7 +5662,7 @@
                 {
                     "name": "Precision Suppressor",
                     "damage": 0,
-                    "range": 21,
+                    "range": 20,
                     "fire_rate": 0,
                     "recoil_control": 4,
                     "mobility": -2,
