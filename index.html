@@ -21,59 +21,70 @@
             previamente</h3>
     </header>
     <div class="body">
-
         <div class="content">
-            <div class="selectors">
-                <label for="options">Personalizar por:</label>
-                <select name="" id="options">
-                    <option value="default">Default</option>
-                    <option value="damage">Daño</option>
-                    <option value="range">Rango</option>
-                    <option value="fire_rate">Cadencia</option>
-                    <option value="recoil_control">Control de retroceso</option>
-                    <option value="mobility">Movilidad</option>
-                    <option value="accuracy">Punteria</option>
-                    <option value="magazine">Cargador</option>
-                    <option value="optic">Mira</option>
-                </select>
-            </div>
-            <div class="selectors">
-                <label for="optionsOrder">Ordernar por:</label>
-                <select name="" id="optionsOrder">
-                    <option value="default">Default</option>
-                    <option value="damage">Daño</option>
-                    <option value="range">Rango</option>
-                    <option value="fire_rate">Cadencia</option>
-                    <option value="recoil_control">Control de retroceso</option>
-                    <option value="mobility">Movilidad</option>
-                    <option value="accuracy">Punteria</option>
-                    <option value="magazine">Cargador</option>
-                    <option value="optic">Mira</option>
-                    <option value="name">Nombre</option>
-                    <option value="dps">DPS</option>
-                    <option value="damageByMagazine">Daño por cargador</option>
-                </select>
-            </div>
-            <table class="table" aria-describedby="weaponsTable">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Tipo</th>
-                        <th>Daño</th>
-                        <th>Rango</th>
-                        <th>Cadencia</th>
-                        <th>Control de retroceso</th>
-                        <th>Movilidad</th>
-                        <th>Punteria</th>
-                        <th>Cargador</th>
-                        <th>Mira</th>
-                        <th>DPS (Beta)</th>
-                        <th>Daño por cargador (Beta)</th>
-                    </tr>
-                </thead>
-                <tbody id="tbodyPrimaryWeapons">
-                </tbody>
-            </table>
+            <section>
+                <div class="selectors">
+                    <label for="options">Personalizar por:</label>
+                    <select name="" id="options">
+                        <option value="default">Default</option>
+                        <option value="damage">Daño</option>
+                        <option value="range">Rango</option>
+                        <option value="fire_rate">Cadencia</option>
+                        <option value="recoil_control">Control de retroceso</option>
+                        <option value="mobility">Movilidad</option>
+                        <option value="accuracy">Punteria</option>
+                        <option value="magazine">Cargador</option>
+                        <option value="optic">Mira</option>
+                    </select>
+                </div>
+                <div class="selectors">
+                    <label for="optionsOrder">Ordernar por:</label>
+                    <select name="" id="optionsOrder">
+                        <option value="default">Default</option>
+                        <option value="damage">Daño</option>
+                        <option value="range">Rango</option>
+                        <option value="fire_rate">Cadencia</option>
+                        <option value="recoil_control">Control de retroceso</option>
+                        <option value="mobility">Movilidad</option>
+                        <option value="accuracy">Punteria</option>
+                        <option value="magazine">Cargador</option>
+                        <option value="optic">Mira</option>
+                        <option value="name">Nombre</option>
+                        <option value="dps">DPS</option>
+                        <option value="damageByMagazine">Daño por cargador</option>
+                    </select>
+                </div>
+                <button id="abrirModal">Abrir Modal</button>
+            </section>
+            <section>
+                <table class="table" aria-describedby="weaponsTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Tipo</th>
+                            <th>Daño</th>
+                            <th>Rango</th>
+                            <th>Cadencia</th>
+                            <th>Control de retroceso</th>
+                            <th>Movilidad</th>
+                            <th>Punteria</th>
+                            <th>Cargador</th>
+                            <th>Mira</th>
+                            <th>DPS (Beta)</th>
+                            <th>Daño por cargador (Beta)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyPrimaryWeapons">
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+    <div id="modalDetail" class="modal">
+        <div class="modal-content">
+            <span class="cerrar" id="cerrarModal">&times;</span>
+            <h2>Detalle del arma</h2>
+            <p>Este es un modal básico.</p>
         </div>
     </div>
     <footer>
@@ -81,6 +92,21 @@
         <p>BY: javiershaka</p>
     </footer>
     <script>
+        let modalDetail = document.getElementById('modalDetail');
+        document.getElementById('abrirModal').addEventListener('click', function () {
+            modalDetail.style.display = 'block';
+        });
+
+        document.getElementById('cerrarModal').addEventListener('click', function () {
+            modalDetail.style.display = 'none';
+        });
+
+        window.addEventListener('click', function (event) {
+            if (event.target == modalDetail) {
+                modalDetail.style.display = 'none';
+            }
+        });
+
         let select = document.getElementById('options');
         let optionsOrder = document.getElementById('optionsOrder');
         var primaryWeaponsGlobal = [];
@@ -89,10 +115,8 @@
         chargeTable(null)
         function orderTable(event) {
             let tableTemp = primaryWeaponsGlobal.slice();
-            console.log(event.target.value)
             if (event.target.value != 'default') {
                 tableTemp.sort((a, b) => b[event.target.value] - a[event.target.value]);
-                console.log('entro')
             }
             if (event.target.value == 'name') {
                 tableTemp.sort((a, b) => a.name.localeCompare(b.name));
@@ -248,6 +272,7 @@
                         weapon.damageByMagazine = parseFloat(weapon.damage) * parseFloat(weapon.magazine);
                         primaryWeaponsGlobal.push(weapon);
                     });
+                    optionsOrder.options[0].selected = true;
                 })
 
         }
