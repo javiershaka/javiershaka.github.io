@@ -1,0 +1,100 @@
+td {
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+}
+
+th {
+    background-color: mediumaquamarine;
+    padding: 5px;
+    border: 2px solid;
+    border-color: black;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+.table tr:nth-child(odd) td {
+    background-color: teal;
+}
+
+.table tr:nth-child(even) td {
+    background-color: chartreuse;
+}
+
+body {
+    background-color: teal;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    /* Margen automático para centrar horizontalmente */
+    background-color: aqua;
+    /* Color de fondo para demostración */
+}
+
+.table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tableDetail {
+    width: 90%;
+    margin: 0 auto;
+}
+.tableDetail thead th{
+    max-width: 80px;
+    overflow: hidden;
+    word-wrap: break-word; /* Evita que el contenido del encabezado se envuelva */
+}
+.tdNegative {
+    background-color: red;
+}
+
+.tdPositive {
+    background-color: green;
+}
+
+.selectors {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
