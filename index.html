@@ -72,6 +72,7 @@
                             <th>Mira</th>
                             <th>DPS (Beta)</th>
                             <th>Daño por cargador (Beta)</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>
                     <tbody id="tbodyPrimaryWeapons">
@@ -85,6 +86,24 @@
             <span class="cerrar" id="cerrarModal">&times;</span>
             <h2>Detalle del arma</h2>
             <p>Este es un modal básico.</p>
+            <table class="tableDetail">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Daño</th>
+                        <th>Rango</th>
+                        <th>Cadencia</th>
+                        <th>Control de retroceso</th>
+                        <th>Movilidad</th>
+                        <th>Punteria</th>
+                        <th>Cargador</th>
+                        <th>Mira</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyDetail">
+                </tbody>
+            </table>
         </div>
     </div>
     <footer>
@@ -137,7 +156,15 @@
                 let tdOptic = document.createElement('td');
                 let tdDPS = document.createElement('td');
                 let tdDamageByMagazine = document.createElement('td');
+                let btn = document.createElement('button');
+                let tdBtn = document.createElement('td');;
+                btn.textContent = 'Detalles';
+                tdBtn.appendChild(btn);
                 tbody.appendChild(tr);
+                btn.addEventListener('click', () => {
+                    detalle(weapon);
+                    modalDetail.style.display = 'block';
+                });
                 tr.appendChild(tdName)
                 tr.appendChild(tdType)
                 tr.appendChild(tdDamage)
@@ -150,6 +177,7 @@
                 tr.appendChild(tdOptic)
                 tr.appendChild(tdDPS)
                 tr.appendChild(tdDamageByMagazine)
+                tr.appendChild(tdBtn);
                 tdName.textContent = weapon.name;
                 tdType.textContent = weapon.type;
                 tdDamage.textContent = weapon.damage;
@@ -167,6 +195,77 @@
         function tableModifique(event) {
             let optionSelected = event.target.value;
             chargeTable(optionSelected);
+        }
+        function detalle(weapon) {
+            let listDetail = [
+                {
+                    'name': 'muzzles', 'type': 'Boca'
+                },
+                {
+                    'name': 'barrels', 'type': 'Cañon'
+                },
+                {
+                    'name': 'underbarrels', 'type': 'Guardamanos'
+                },
+                {
+                    'name': 'optics', 'type': 'Mira'
+                },
+                {
+                    'name': 'stocks', 'type': 'Culata'
+                },
+                {
+                    'name': 'magazines', 'type': 'Cargador'
+                }
+
+            ];
+            let tbodyDetail = document.getElementById('tbodyDetail');
+            tbodyDetail.innerHTML = '';
+            listDetail.forEach(list => {
+                let tr = document.createElement('tr');
+                tbodyDetail.appendChild(tr);
+                let tdName = document.createElement('td');
+                let tdType = document.createElement('td');
+                let tdDamage = document.createElement('td');
+                let tdRange = document.createElement('td');
+                let tdFireRate = document.createElement('td');
+                let tdControlRecoil = document.createElement('td');
+                let tdMobility = document.createElement('td');
+                let tdAccuracy = document.createElement('td');
+                let tdMagazine = document.createElement('td');
+                let tdOptic = document.createElement('td');
+                tdName.textContent = weapon[list.name][0].name;
+                tdType.textContent = list.type;
+                tdDamage.textContent = weapon[list.name][0].damage;
+                tdRange.textContent = weapon[list.name][0].range;
+                tdFireRate.textContent = weapon[list.name][0].fire_rate;
+                tdControlRecoil.textContent = weapon[list.name][0].recoil_control;
+                tdMobility.textContent = weapon[list.name][0].mobility;
+                tdAccuracy.textContent = weapon[list.name][0].accuracy;
+                tdMagazine.textContent = weapon[list.name][0].magazine;
+                tdOptic.textContent = weapon[list.name][0].optic;
+                tr.appendChild(tdName)
+                tr.appendChild(tdType)
+                tr.appendChild(tdDamage)
+                tr.appendChild(tdRange)
+                tr.appendChild(tdFireRate)
+                tr.appendChild(tdControlRecoil)
+                tr.appendChild(tdMobility)
+                tr.appendChild(tdAccuracy)
+                tr.appendChild(tdMagazine)
+                tr.appendChild(tdOptic)
+                console.log(tr.children);
+                Array.from(tr.children).slice(2).forEach(child => {
+                    if (child.textContent > 0) {
+                        child.textContent = '+' + child.textContent;
+                        child.classList.add('tdPositive')
+                    }
+                    if (child.textContent < 0) {
+                        child.classList.add('tdNegative')
+                    }
+                    console.log(child.textContent)
+                });
+            });
+
         }
         function chargeTable(option) {
             fetch('weapons.json')
@@ -190,6 +289,14 @@
                         let tdOptic = document.createElement('td');
                         let tdDPS = document.createElement('td');
                         let tdDamageByMagazine = document.createElement('td');
+                        let btn = document.createElement('button');
+                        let tdBtn = document.createElement('td');;
+                        btn.textContent = 'Detalles';
+                        btn.addEventListener('click', () => {
+                            detalle(weapon);
+                            modalDetail.style.display = 'block';
+                        });
+                        tdBtn.appendChild(btn);
                         tbody.appendChild(tr);
                         tr.appendChild(tdName)
                         tr.appendChild(tdType)
@@ -203,6 +310,7 @@
                         tr.appendChild(tdOptic)
                         tr.appendChild(tdDPS)
                         tr.appendChild(tdDamageByMagazine)
+                        tr.appendChild(tdBtn);
                         if (option != 'default') {
                             weapon.muzzles.sort((a, b) => b[option] - a[option]);
                             weapon.barrels.sort((a, b) => b[option] - a[option]);

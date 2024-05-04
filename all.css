@@ -18,11 +18,11 @@ header {
     text-align: center;
 }
 
-tr:nth-child(odd) td {
+.table tr:nth-child(odd) td {
     background-color: teal;
 }
 
-tr:nth-child(even) td {
+.table tr:nth-child(even) td {
     background-color: chartreuse;
 }
 
@@ -41,6 +41,23 @@ body {
 .table {
     width: 90%;
     margin: 0 auto;
+}
+
+.tableDetail {
+    width: 90%;
+    margin: 0 auto;
+}
+.tableDetail thead th{
+    max-width: 80px;
+    overflow: hidden;
+    word-wrap: break-word; /* Evita que el contenido del encabezado se envuelva */
+}
+.tdNegative {
+    background-color: red;
+}
+
+.tdPositive {
+    background-color: green;
 }
 
 .selectors {
@@ -65,7 +82,7 @@ body {
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%;
+    width: 80%;
 }
 
 .cerrar {
