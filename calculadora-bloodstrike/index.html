@@ -54,7 +54,6 @@
                         <option value="damageByMagazine">Daño por cargador</option>
                     </select>
                 </div>
-                <button id="abrirModal">Abrir Modal</button>
             </section>
             <section>
                 <table class="table" aria-describedby="weaponsTable">
@@ -98,7 +97,6 @@
                         <th>Movilidad</th>
                         <th>Punteria</th>
                         <th>Cargador</th>
-                        <th>Mira</th>
                     </tr>
                 </thead>
                 <tbody id="tbodyDetail">
@@ -112,10 +110,6 @@
     </footer>
     <script>
         let modalDetail = document.getElementById('modalDetail');
-        document.getElementById('abrirModal').addEventListener('click', function () {
-            modalDetail.style.display = 'block';
-        });
-
         document.getElementById('cerrarModal').addEventListener('click', function () {
             modalDetail.style.display = 'none';
         });
@@ -232,7 +226,6 @@
                 let tdMobility = document.createElement('td');
                 let tdAccuracy = document.createElement('td');
                 let tdMagazine = document.createElement('td');
-                let tdOptic = document.createElement('td');
                 tdName.textContent = weapon[list.name][0].name;
                 tdType.textContent = list.type;
                 tdDamage.textContent = weapon[list.name][0].damage;
@@ -242,7 +235,6 @@
                 tdMobility.textContent = weapon[list.name][0].mobility;
                 tdAccuracy.textContent = weapon[list.name][0].accuracy;
                 tdMagazine.textContent = weapon[list.name][0].magazine;
-                tdOptic.textContent = weapon[list.name][0].optic;
                 tr.appendChild(tdName)
                 tr.appendChild(tdType)
                 tr.appendChild(tdDamage)
@@ -252,8 +244,6 @@
                 tr.appendChild(tdMobility)
                 tr.appendChild(tdAccuracy)
                 tr.appendChild(tdMagazine)
-                tr.appendChild(tdOptic)
-                console.log(tr.children);
                 Array.from(tr.children).slice(2).forEach(child => {
                     if (child.textContent > 0) {
                         child.textContent = '+' + child.textContent;
@@ -262,10 +252,51 @@
                     if (child.textContent < 0) {
                         child.classList.add('tdNegative')
                     }
-                    console.log(child.textContent)
                 });
             });
-
+            let tr = document.createElement('tr');
+            tbodyDetail.appendChild(tr);
+            let tdTotal = document.createElement('td');
+            tdTotal.colSpan = 2;
+            tdTotal.textContent = 'Total';
+            tr.appendChild(tdTotal);
+            let tdDamage = document.createElement('td');
+            let tdRange = document.createElement('td');
+            let tdFireRate = document.createElement('td');
+            let tdControlRecoil = document.createElement('td');
+            let tdMobility = document.createElement('td');
+            let tdAccuracy = document.createElement('td');
+            let tdMagazine = document.createElement('td');
+            let totalDamage = 0;
+            let totalRange = 0;
+            let totalFireRate = 0;
+            let totalControlRecoil = 0;
+            let totalMobility = 0;
+            let totalAccuracy = 0;
+            let totalMagazine = 0;
+            Array.from(tbodyDetail.children).slice(0, -1).forEach(child => {
+                totalDamage += parseInt(child.cells[2].textContent);
+                totalRange += parseInt(child.cells[3].textContent);
+                totalFireRate += parseInt(child.cells[4].textContent);
+                totalControlRecoil += parseInt(child.cells[5].textContent);
+                totalMobility += parseInt(child.cells[6].textContent);
+                totalAccuracy += parseInt(child.cells[7].textContent);
+                totalMagazine += parseInt(child.cells[8].textContent);
+            });
+            tdDamage.textContent = totalDamage;
+            tdRange.textContent = totalRange;
+            tdFireRate.textContent = totalFireRate;
+            tdControlRecoil.textContent = totalControlRecoil;
+            tdMobility.textContent = totalMobility;
+            tdAccuracy.textContent = totalAccuracy;
+            tdMagazine.textContent = totalMagazine;
+            tr.appendChild(tdDamage)
+            tr.appendChild(tdRange)
+            tr.appendChild(tdFireRate)
+            tr.appendChild(tdControlRecoil)
+            tr.appendChild(tdMobility)
+            tr.appendChild(tdAccuracy)
+            tr.appendChild(tdMagazine)
         }
         function chargeTable(option) {
             fetch('weapons.json')
