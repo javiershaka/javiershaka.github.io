@@ -193,7 +193,6 @@
             chargeTable(optionSelected);
         }
         function detalle(weapon) {
-
             let tbodyDetail = document.getElementById('tbodyDetail');
             tbodyDetail.innerHTML = '';
             listDetail.forEach(list => {
@@ -201,31 +200,15 @@
                 tbodyDetail.appendChild(tr);
                 let tdName = document.createElement('td');
                 let tdType = document.createElement('td');
-                let tdDamage = document.createElement('td');
-                let tdRange = document.createElement('td');
-                let tdFireRate = document.createElement('td');
-                let tdControlRecoil = document.createElement('td');
-                let tdMobility = document.createElement('td');
-                let tdAccuracy = document.createElement('td');
-                let tdMagazine = document.createElement('td');
                 tdName.textContent = weapon[list.name][0].name;
                 tdType.textContent = list.type;
-                tdDamage.textContent = weapon[list.name][0].damage;
-                tdRange.textContent = weapon[list.name][0].range;
-                tdFireRate.textContent = weapon[list.name][0].fire_rate;
-                tdControlRecoil.textContent = weapon[list.name][0].recoil_control;
-                tdMobility.textContent = weapon[list.name][0].mobility;
-                tdAccuracy.textContent = weapon[list.name][0].accuracy;
-                tdMagazine.textContent = weapon[list.name][0].magazine;
                 tr.appendChild(tdName)
                 tr.appendChild(tdType)
-                tr.appendChild(tdDamage)
-                tr.appendChild(tdRange)
-                tr.appendChild(tdFireRate)
-                tr.appendChild(tdControlRecoil)
-                tr.appendChild(tdMobility)
-                tr.appendChild(tdAccuracy)
-                tr.appendChild(tdMagazine)
+                listColumns.slice(2, -3).forEach(column => {
+                    let td = document.createElement('td');
+                    td.textContent = weapon[list.name][0][column];
+                    tr.appendChild(td);
+                });
                 Array.from(tr.children).slice(2).forEach(child => {
                     if (child.textContent > 0) {
                         child.textContent = '+' + child.textContent;
