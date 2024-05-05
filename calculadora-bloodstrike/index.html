@@ -122,6 +122,40 @@
         let select = document.getElementById('options');
         let optionsOrder = document.getElementById('optionsOrder');
         var primaryWeaponsGlobal = [];
+        let listDetail = [
+            {
+                'name': 'muzzles', 'type': 'Boca'
+            },
+            {
+                'name': 'barrels', 'type': 'Cañon'
+            },
+            {
+                'name': 'underbarrels', 'type': 'Guardamanos'
+            },
+            {
+                'name': 'optics', 'type': 'Mira'
+            },
+            {
+                'name': 'stocks', 'type': 'Culata'
+            },
+            {
+                'name': 'magazines', 'type': 'Cargador'
+            }
+        ];
+        let listColumns = [
+            'name',
+            'type',
+            'damage',
+            'range',
+            'fire_rate',
+            'recoil_control',
+            'mobility',
+            'accuracy',
+            'magazine',
+            'optic',
+            'dps',
+            'damageByMagazine'
+        ];
         select.addEventListener('change', tableModifique);
         optionsOrder.addEventListener('change', orderTable);
         chargeTable(null)
@@ -137,20 +171,6 @@
             tbody.innerHTML = '';
             tableTemp.forEach(weapon => {
                 let tr = document.createElement('tr');
-                let listColumns = [
-                    'name',
-                    'type',
-                    'damage',
-                    'range',
-                    'fire_rate',
-                    'recoil_control',
-                    'mobility',
-                    'accuracy',
-                    'magazine',
-                    'optic',
-                    'dps',
-                    'damageByMagazine'
-                ];
                 listColumns.forEach(column => {
                     let td = document.createElement('td');
                     td.textContent = weapon[column];
@@ -173,27 +193,7 @@
             chargeTable(optionSelected);
         }
         function detalle(weapon) {
-            let listDetail = [
-                {
-                    'name': 'muzzles', 'type': 'Boca'
-                },
-                {
-                    'name': 'barrels', 'type': 'Cañon'
-                },
-                {
-                    'name': 'underbarrels', 'type': 'Guardamanos'
-                },
-                {
-                    'name': 'optics', 'type': 'Mira'
-                },
-                {
-                    'name': 'stocks', 'type': 'Culata'
-                },
-                {
-                    'name': 'magazines', 'type': 'Cargador'
-                }
 
-            ];
             let tbodyDetail = document.getElementById('tbodyDetail');
             tbodyDetail.innerHTML = '';
             listDetail.forEach(list => {
@@ -290,20 +290,6 @@
                     primaryWeaponsGlobal = [];
                     primaryWeapons.forEach(weapon => {
                         let tr = document.createElement('tr');
-                        let listColumns = [
-                            'name',
-                            'type',
-                            'damage',
-                            'range',
-                            'fire_rate',
-                            'recoil_control',
-                            'mobility',
-                            'accuracy',
-                            'magazine',
-                            'optic',
-                            'dps',
-                            'damageByMagazine'
-                        ];
                         let btn = document.createElement('button');
                         let tdBtn = document.createElement('td');;
                         btn.textContent = 'Detalles';
@@ -314,56 +300,18 @@
                         tdBtn.appendChild(btn);
                         tbody.appendChild(tr);
                         if (option != 'default') {
-                            weapon.muzzles.sort((a, b) => b[option] - a[option]);
-                            weapon.barrels.sort((a, b) => b[option] - a[option]);
-                            weapon.underbarrels.sort((a, b) => b[option] - a[option]);
-                            weapon.optics.sort((a, b) => b[option] - a[option]);
-                            weapon.stocks.sort((a, b) => b[option] - a[option]);
-                            weapon.magazines.sort((a, b) => b[option] - a[option]);
+                            listDetail.forEach(detail => {
+                                weapon[detail.name].sort((a, b) => b[option] - a[option]);
+                            });
                         }
-
-                        weapon.damage = weapon.damage
-                            + weapon.muzzles[0].damage
-                            + weapon.barrels[0].damage
-                            + weapon.underbarrels[0].damage
-                            + weapon.optics[0].damage
-                            + weapon.stocks[0].damage
-                            + weapon.magazines[0].damage;
-                        weapon.range = weapon.range
-                            + weapon.muzzles[0].range
-                            + weapon.barrels[0].range
-                            + weapon.underbarrels[0].range
-                            + weapon.optics[0].range
-                            + weapon.stocks[0].range
-                            + weapon.magazines[0].range;
-                        weapon.fire_rate = weapon.fire_rate
-                            + weapon.muzzles[0].fire_rate
-                            + weapon.barrels[0].fire_rate
-                            + weapon.underbarrels[0].fire_rate
-                            + weapon.optics[0].fire_rate
-                            + weapon.stocks[0].fire_rate
-                            + weapon.magazines[0].fire_rate;
-                        weapon.recoil_control = weapon.recoil_control
-                            + weapon.muzzles[0].recoil_control
-                            + weapon.barrels[0].recoil_control
-                            + weapon.underbarrels[0].recoil_control
-                            + weapon.optics[0].recoil_control
-                            + weapon.stocks[0].recoil_control
-                            + weapon.magazines[0].recoil_control;
-                        weapon.mobility = weapon.mobility
-                            + weapon.muzzles[0].mobility
-                            + weapon.barrels[0].mobility
-                            + weapon.underbarrels[0].mobility
-                            + weapon.optics[0].mobility
-                            + weapon.stocks[0].mobility
-                            + weapon.magazines[0].mobility;
-                        weapon.accuracy = weapon.accuracy
-                            + weapon.muzzles[0].accuracy
-                            + weapon.barrels[0].accuracy
-                            + weapon.underbarrels[0].accuracy
-                            + weapon.optics[0].accuracy
-                            + weapon.stocks[0].accuracy
-                            + weapon.magazines[0].accuracy;
+                        listDetail.forEach(detail => {
+                            weapon.damage += weapon[detail.name][0].damage;
+                            weapon.range += weapon[detail.name][0].range;
+                            weapon.fire_rate += weapon[detail.name][0].fire_rate;
+                            weapon.recoil_control += weapon[detail.name][0].recoil_control;
+                            weapon.mobility += weapon[detail.name][0].mobility;
+                            weapon.accuracy += weapon[detail.name][0].accuracy;
+                        });
                         weapon.magazine = weapon.magazine
                             + weapon.magazines[0].magazine;
                         weapon.dps = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
@@ -377,8 +325,7 @@
                         primaryWeaponsGlobal.push(weapon);
                     });
                     optionsOrder.options[0].selected = true;
-                })
-
+                });
         }
     </script>
 </body>
