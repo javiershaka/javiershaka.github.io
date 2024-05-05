@@ -84,7 +84,7 @@
         <div class="modal-content">
             <span class="cerrar" id="cerrarModal">&times;</span>
             <h2>Detalle del arma</h2>
-            <table class="tableDetail">
+            <table class="tableDetail" aria-describedby="detailFeapon">
                 <thead>
                     <tr>
                         <th>Nombre</th>
@@ -137,18 +137,25 @@
             tbody.innerHTML = '';
             tableTemp.forEach(weapon => {
                 let tr = document.createElement('tr');
-                let tdName = document.createElement('td');
-                let tdType = document.createElement('td');
-                let tdDamage = document.createElement('td');
-                let tdRange = document.createElement('td');
-                let tdFireRate = document.createElement('td');
-                let tdControlRecoil = document.createElement('td');
-                let tdMobility = document.createElement('td');
-                let tdAccuracy = document.createElement('td');
-                let tdMagazine = document.createElement('td');
-                let tdOptic = document.createElement('td');
-                let tdDPS = document.createElement('td');
-                let tdDamageByMagazine = document.createElement('td');
+                let listColumns = [
+                    'name',
+                    'type',
+                    'damage',
+                    'range',
+                    'fire_rate',
+                    'recoil_control',
+                    'mobility',
+                    'accuracy',
+                    'magazine',
+                    'optic',
+                    'dps',
+                    'damageByMagazine'
+                ];
+                listColumns.forEach(column => {
+                    let td = document.createElement('td');
+                    td.textContent = weapon[column];
+                    tr.appendChild(td);
+                });
                 let btn = document.createElement('button');
                 let tdBtn = document.createElement('td');;
                 btn.textContent = 'Detalles';
@@ -158,31 +165,7 @@
                     detalle(weapon);
                     modalDetail.style.display = 'block';
                 });
-                tr.appendChild(tdName)
-                tr.appendChild(tdType)
-                tr.appendChild(tdDamage)
-                tr.appendChild(tdRange)
-                tr.appendChild(tdFireRate)
-                tr.appendChild(tdControlRecoil)
-                tr.appendChild(tdMobility)
-                tr.appendChild(tdAccuracy)
-                tr.appendChild(tdMagazine)
-                tr.appendChild(tdOptic)
-                tr.appendChild(tdDPS)
-                tr.appendChild(tdDamageByMagazine)
                 tr.appendChild(tdBtn);
-                tdName.textContent = weapon.name;
-                tdType.textContent = weapon.type;
-                tdDamage.textContent = weapon.damage;
-                tdRange.textContent = weapon.range;
-                tdFireRate.textContent = weapon.fire_rate;
-                tdControlRecoil.textContent = weapon.recoil_control;
-                tdMobility.textContent = weapon.mobility;
-                tdAccuracy.textContent = weapon.accuracy;
-                tdMagazine.textContent = weapon.magazine;
-                tdOptic.textContent = weapon.optic;
-                tdDPS.textContent = weapon.dps;
-                tdDamageByMagazine.textContent = weapon.damageByMagazine;
             })
         }
         function tableModifique(event) {
@@ -307,18 +290,20 @@
                     primaryWeaponsGlobal = [];
                     primaryWeapons.forEach(weapon => {
                         let tr = document.createElement('tr');
-                        let tdName = document.createElement('td');
-                        let tdType = document.createElement('td');
-                        let tdDamage = document.createElement('td');
-                        let tdRange = document.createElement('td');
-                        let tdFireRate = document.createElement('td');
-                        let tdControlRecoil = document.createElement('td');
-                        let tdMobility = document.createElement('td');
-                        let tdAccuracy = document.createElement('td');
-                        let tdMagazine = document.createElement('td');
-                        let tdOptic = document.createElement('td');
-                        let tdDPS = document.createElement('td');
-                        let tdDamageByMagazine = document.createElement('td');
+                        let listColumns = [
+                            'name',
+                            'type',
+                            'damage',
+                            'range',
+                            'fire_rate',
+                            'recoil_control',
+                            'mobility',
+                            'accuracy',
+                            'magazine',
+                            'optic',
+                            'dps',
+                            'damageByMagazine'
+                        ];
                         let btn = document.createElement('button');
                         let tdBtn = document.createElement('td');;
                         btn.textContent = 'Detalles';
@@ -328,19 +313,6 @@
                         });
                         tdBtn.appendChild(btn);
                         tbody.appendChild(tr);
-                        tr.appendChild(tdName)
-                        tr.appendChild(tdType)
-                        tr.appendChild(tdDamage)
-                        tr.appendChild(tdRange)
-                        tr.appendChild(tdFireRate)
-                        tr.appendChild(tdControlRecoil)
-                        tr.appendChild(tdMobility)
-                        tr.appendChild(tdAccuracy)
-                        tr.appendChild(tdMagazine)
-                        tr.appendChild(tdOptic)
-                        tr.appendChild(tdDPS)
-                        tr.appendChild(tdDamageByMagazine)
-                        tr.appendChild(tdBtn);
                         if (option != 'default') {
                             weapon.muzzles.sort((a, b) => b[option] - a[option]);
                             weapon.barrels.sort((a, b) => b[option] - a[option]);
@@ -394,20 +366,14 @@
                             + weapon.magazines[0].accuracy;
                         weapon.magazine = weapon.magazine
                             + weapon.magazines[0].magazine;
-                        tdName.textContent = weapon.name;
-                        tdType.textContent = weapon.type;
-                        tdDamage.textContent = weapon.damage;
-                        tdRange.textContent = weapon.range;
-                        tdFireRate.textContent = weapon.fire_rate;
-                        tdControlRecoil.textContent = weapon.recoil_control;
-                        tdMobility.textContent = weapon.mobility;
-                        tdAccuracy.textContent = weapon.accuracy;
-                        tdMagazine.textContent = weapon.magazine;
-                        tdOptic.textContent = weapon.optic;
-                        tdDPS.textContent = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
                         weapon.dps = (parseFloat(weapon.fire_rate) / 4) * parseFloat(weapon.damage);
-                        tdDamageByMagazine.textContent = parseFloat(weapon.damage) * parseFloat(weapon.magazine);
                         weapon.damageByMagazine = parseFloat(weapon.damage) * parseFloat(weapon.magazine);
+                        listColumns.forEach(column => {
+                            let td = document.createElement('td');
+                            td.textContent = weapon[column];
+                            tr.appendChild(td);
+                        });
+                        tr.appendChild(tdBtn);
                         primaryWeaponsGlobal.push(weapon);
                     });
                     optionsOrder.options[0].selected = true;
