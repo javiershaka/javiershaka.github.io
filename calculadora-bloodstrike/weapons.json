@@ -3543,6 +3543,138 @@
                     "magazine": 0,
                     "zoom": 1,
                     "additional": "N/A"
+                },
+                {
+                    "name": "ACRO Compact Reflex Optic",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "T2 Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Hamr Rifle Scope",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "DX3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "EXPS3 Holographic Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "KCO Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Bravo Battle Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo3 Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Romeo4T Red Dot Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "2.0x Combat Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -11,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 2,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "RMR Reflex Sight",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "zoom": 1,
+                    "additional": "N/A"
                 }
             ],
             "stocks": [
@@ -3556,6 +3688,39 @@
                     "accuracy": 0,
                     "magazine": 0,
                     "additional": "N/A"
+                },
+                {
+                    "name": "LA Collapsible Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -1,
+                    "mobility": 4,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "UBR Collapsible Stock",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 4,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
+                },
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": -10,
+                    "mobility": 8,
+                    "accuracy": 5,
+                    "magazine": 0,
+                    "additional": "Hip Fire Accuracy"
                 }
             ],
             "magazines": [
