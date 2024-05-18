@@ -1986,6 +1986,19 @@
                     "accuracy": 0,
                     "magazine": 0,
                     "additional": "N/A"
+                }
+            ],
+            "barrels": [
+                {
+                    "name": "Empty",
+                    "damage": 0,
+                    "range": 0,
+                    "fire_rate": 0,
+                    "recoil_control": 0,
+                    "mobility": 0,
+                    "accuracy": 0,
+                    "magazine": 0,
+                    "additional": "N/A"
                 },
                 {
                     "name": "8.5'' Spearhead Barrel",
@@ -2017,19 +2030,6 @@
                     "recoil_control": 4,
                     "mobility": -12,
                     "accuracy": -8,
-                    "magazine": 0,
-                    "additional": "N/A"
-                }
-            ],
-            "barrels": [
-                {
-                    "name": "Empty",
-                    "damage": 0,
-                    "range": 0,
-                    "fire_rate": 0,
-                    "recoil_control": 0,
-                    "mobility": 0,
-                    "accuracy": 0,
                     "magazine": 0,
                     "additional": "N/A"
                 }
