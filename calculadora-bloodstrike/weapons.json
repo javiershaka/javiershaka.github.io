@@ -584,7 +584,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": -3,
-                    "accuracy": 10,
+                    "accuracy": 5,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -641,7 +641,7 @@
                     "fire_rate": 0,
                     "recoil_control": -4,
                     "mobility": 6,
-                    "accuracy": 2,
+                    "accuracy": 1,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -663,7 +663,7 @@
                     "fire_rate": 0,
                     "recoil_control": 4,
                     "mobility": -7,
-                    "accuracy": -8,
+                    "accuracy": -4,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -725,13 +725,13 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "Extended Vertical Grip",
+                    "name": "Lengthened Vertical Grip",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
                     "recoil_control": 5,
                     "mobility": -3,
-                    "accuracy": 3,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -935,7 +935,7 @@
                     "fire_rate": 0,
                     "recoil_control": -9,
                     "mobility": 7,
-                    "accuracy": 3,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
