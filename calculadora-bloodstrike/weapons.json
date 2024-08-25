@@ -1119,7 +1119,7 @@
                     "fire_rate": 0,
                     "recoil_control": -6,
                     "mobility": 6,
-                    "accuracy": 2,
+                    "accuracy": 1,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1141,7 +1141,7 @@
                     "fire_rate": 0,
                     "recoil_control": 5,
                     "mobility": -7,
-                    "accuracy": -8,
+                    "accuracy": -4,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -1214,13 +1214,13 @@
                     "additional": "Sprint-to-Fire Speed"
                 },
                 {
-                    "name": "Extended Vertical Grip",
+                    "name": "Lengthened Vertical Grip",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": 6,
+                    "recoil_control": 8,
                     "mobility": -3,
-                    "accuracy": 3,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 }
@@ -1395,13 +1395,13 @@
                     "additional": "N/A"
                 },
                 {
-                    "name": "Empty",
+                    "name": "No Stock",
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
                     "recoil_control": -13,
                     "mobility": 7,
-                    "accuracy": 3,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
