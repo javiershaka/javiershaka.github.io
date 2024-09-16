@@ -2840,8 +2840,8 @@
                 },
                 {
                     "name": "30-round Sniper Mag",
-                    "damage": 9,
-                    "range": 7,
+                    "damage": 3,
+                    "range": 6,
                     "fire_rate": -4,
                     "recoil_control": 0,
                     "mobility": 0,
