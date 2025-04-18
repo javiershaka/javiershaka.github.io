@@ -551,7 +551,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -584,7 +584,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": -3,
-                    "accuracy": 5,
+                    "accuracy": 10,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -641,7 +641,7 @@
                     "fire_rate": 0,
                     "recoil_control": -4,
                     "mobility": 6,
-                    "accuracy": 1,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -663,7 +663,7 @@
                     "fire_rate": 0,
                     "recoil_control": 4,
                     "mobility": -7,
-                    "accuracy": -4,
+                    "accuracy": -8,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -731,7 +731,7 @@
                     "fire_rate": 0,
                     "recoil_control": 5,
                     "mobility": -3,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -935,7 +935,7 @@
                     "fire_rate": 0,
                     "recoil_control": -9,
                     "mobility": 7,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1029,7 +1029,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 1,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1094,7 +1094,7 @@
                     "range": 5,
                     "fire_rate": 0,
                     "recoil_control": 2,
-                    "mobility": -2,
+                    "mobility": -3,
                     "accuracy": 0,
                     "magazine": 0,
                     "additional": "Reduce Sound Alert Range"
@@ -1119,7 +1119,7 @@
                     "fire_rate": 0,
                     "recoil_control": -6,
                     "mobility": 6,
-                    "accuracy": 1,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1141,7 +1141,7 @@
                     "fire_rate": 0,
                     "recoil_control": 5,
                     "mobility": -7,
-                    "accuracy": -4,
+                    "accuracy": -8,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -1218,9 +1218,9 @@
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": 8,
+                    "recoil_control": 7,
                     "mobility": -3,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 }
@@ -1401,7 +1401,7 @@
                     "fire_rate": 0,
                     "recoil_control": -13,
                     "mobility": 7,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1478,8 +1478,8 @@
         {
             "name": "Scar",
             "type": "Assault Rifle",
-            "damage": 27,
-            "range": 20,
+            "damage": 31,
+            "range": 25,
             "fire_rate": 44,
             "recoil_control": 13,
             "mobility": 60,
@@ -1516,7 +1516,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -1545,7 +1545,7 @@
                 {
                     "name": "Lightweight Suppressor",
                     "damage": 0,
-                    "range": -5,
+                    "range": -6,
                     "fire_rate": 0,
                     "recoil_control": 1,
                     "mobility": 0,
@@ -1556,7 +1556,7 @@
                 {
                     "name": "Compensator",
                     "damage": 0,
-                    "range": 2,
+                    "range": 3,
                     "fire_rate": 0,
                     "recoil_control": 3,
                     "mobility": -2,
@@ -1567,7 +1567,7 @@
                 {
                     "name": "Precision Suppressor",
                     "damage": 0,
-                    "range": 4,
+                    "range": 5,
                     "fire_rate": 0,
                     "recoil_control": 1,
                     "mobility": -3,
@@ -1591,7 +1591,7 @@
                 {
                     "name": "Short Barrel",
                     "damage": 0,
-                    "range": -4,
+                    "range": -5,
                     "fire_rate": 0,
                     "recoil_control": -1,
                     "mobility": 6,
@@ -1602,7 +1602,7 @@
                 {
                     "name": "Extended Barrel",
                     "damage": 0,
-                    "range": 4,
+                    "range": 5,
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": -2,
@@ -1613,7 +1613,7 @@
                 {
                     "name": "Ranger Long Barrel",
                     "damage": 0,
-                    "range": 6,
+                    "range": 8,
                     "fire_rate": 0,
                     "recoil_control": 2,
                     "mobility": -7,
@@ -2359,7 +2359,7 @@
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 10,
-                    "additional": "Long-range Damabe"
+                    "additional": "Long-range DMG Distance Dropoff"
                 }
             ]
         },
@@ -2371,7 +2371,7 @@
             "fire_rate": 29,
             "recoil_control": 28,
             "mobility": 60,
-            "accuracy": 48,
+            "accuracy": 45,
             "magazine": 21,
             "optic": "1x",
             "muzzles": [
@@ -2404,7 +2404,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 5,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -2505,7 +2505,7 @@
                     "fire_rate": 0,
                     "recoil_control": 12,
                     "mobility": -7,
-                    "accuracy": -25,
+                    "accuracy": -23,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -2840,8 +2840,8 @@
                 },
                 {
                     "name": "30-round Sniper Mag",
-                    "damage": 3,
-                    "range": 6,
+                    "damage": 2,
+                    "range": 8,
                     "fire_rate": -4,
                     "recoil_control": 0,
                     "mobility": 0,
@@ -2879,7 +2879,7 @@
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": 4,
+                    "recoil_control": 3,
                     "mobility": -1,
                     "accuracy": 0,
                     "magazine": 0,
@@ -2892,7 +2892,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 4,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -2902,7 +2902,7 @@
                     "range": 0,
                     "fire_rate": 0,
                     "recoil_control": 1,
-                    "mobility": -3,
+                    "mobility": -1,
                     "accuracy": 0,
                     "magazine": 0,
                     "additional": "Reduce Sound Alert Range"
@@ -2912,9 +2912,9 @@
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": 2,
+                    "recoil_control": 0,
                     "mobility": -3,
-                    "accuracy": 6,
+                    "accuracy": 11,
                     "magazine": 0,
                     "additional": "Sprint-to-Fire Speed"
                 },
@@ -2969,7 +2969,7 @@
                     "damage": 0,
                     "range": 4,
                     "fire_rate": 0,
-                    "recoil_control": 10,
+                    "recoil_control": 0,
                     "mobility": -2,
                     "accuracy": 0,
                     "magazine": 0,
@@ -2982,7 +2982,7 @@
                     "fire_rate": 0,
                     "recoil_control": -4,
                     "mobility": 6,
-                    "accuracy": 1,
+                    "accuracy": 2,
                     "magazine": 0,
                     "additional": "Movement Speed +++"
                 },
@@ -2993,7 +2993,7 @@
                     "fire_rate": 0,
                     "recoil_control": 9,
                     "mobility": 0,
-                    "accuracy": -4,
+                    "accuracy": -9,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy --"
                 },
@@ -3004,7 +3004,7 @@
                     "fire_rate": 0,
                     "recoil_control": 3,
                     "mobility": -7,
-                    "accuracy": -4,
+                    "accuracy": -9,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -3083,7 +3083,7 @@
                     "fire_rate": 0,
                     "recoil_control": 5,
                     "mobility": -3,
-                    "accuracy": 2,
+                    "accuracy": 4,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 }
@@ -3264,7 +3264,7 @@
                     "fire_rate": 0,
                     "recoil_control": -8,
                     "mobility": 7,
-                    "accuracy": 2,
+                    "accuracy": 4,
                     "magazine": 0,
                     "additional": "N/A"
                 },
@@ -3284,7 +3284,7 @@
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": 4,
+                    "recoil_control": 3,
                     "mobility": 0,
                     "accuracy": 0,
                     "magazine": 0,
@@ -3368,7 +3368,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": 0,
-                    "accuracy": 0,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 },
@@ -3390,7 +3390,7 @@
                     "fire_rate": 0,
                     "recoil_control": 0,
                     "mobility": -3,
-                    "accuracy": 5,
+                    "accuracy": 9,
                     "magazine": 0,
                     "additional": "Sprint-to-Fire Speed"
                 },
@@ -3465,11 +3465,11 @@
                 {
                     "name": "Extended Barrel",
                     "damage": 0,
-                    "range": 0,
+                    "range": 5,
                     "fire_rate": 0,
-                    "recoil_control": 9,
-                    "mobility": 0,
-                    "accuracy": -4,
+                    "recoil_control": 0,
+                    "mobility": -2,
+                    "accuracy": 0,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy --"
                 },
@@ -3478,9 +3478,9 @@
                     "damage": 0,
                     "range": 8,
                     "fire_rate": 0,
-                    "recoil_control": 4,
+                    "recoil_control": 5,
                     "mobility": -7,
-                    "accuracy": -3,
+                    "accuracy": -7,
                     "magazine": 0,
                     "additional": "N/A"
                 }
@@ -3559,7 +3559,7 @@
                     "fire_rate": 0,
                     "recoil_control": 6,
                     "mobility": -4,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "Hip Fire Accuracy"
                 }
@@ -3751,9 +3751,9 @@
                     "damage": 0,
                     "range": 0,
                     "fire_rate": 0,
-                    "recoil_control": -1,
+                    "recoil_control": -10,
                     "mobility": 7,
-                    "accuracy": 2,
+                    "accuracy": 3,
                     "magazine": 0,
                     "additional": "N/A"
                 },
