@@ -8958,7 +8958,7 @@
         {
             "name": "Uzi (Akimbo)",
             "type": "Sub Machine Gun",
-            "damage": 34,
+            "damage": 68,
             "range": 15,
             "fire_rate": 42,
             "recoil_control": 23,
